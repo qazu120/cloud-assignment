@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        cloud ass
+    </title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    
+	
+	<hr>
+			<div class="docker-form">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    
+                    <div>
+                        <label>Full Name</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Id</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Age</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>Email Address</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Gender</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                    
+                </form>
+		</div>
+		<br/>
+		<div class = "docker-table">
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th> Id</th>
+                            <th>Age</th>
+                            <th>Email Address</th>
+                            <th>Gender</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        </div>
+   
+
+  
+    
+
+</body>
+</html>
